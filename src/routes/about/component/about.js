@@ -6,18 +6,18 @@ import Hero from "../../../components/hero/hero";
 import "./about.css";
 import im from '../../../assets/images/pdt1.webp'
 
-function About() {
+function About () {
   return (
     <>
       <Hero hero="pagesHero">
         <Banner title="About Us" subtitle="Home / About">
-          
+
         </Banner>
       </Hero>
 
-      {/* Helmet to handle the SEO for the site */}
+      {/* Helmet to handle the SEO for the site */ }
       <Helmet>
-        <title>SolerChil Technologies | About Us</title>
+        <title>Code4Uganda | About Us</title>
         <meta charSet="utf-8" />
         <meta
           name="description"
@@ -37,7 +37,7 @@ function About() {
         </p>
         <div></div>
       </div>
-      {/* Start of the mission section  */}
+      {/* Start of the mission section  */ }
       <div className="mission-container">
         <div className="mission">
           <h3>Our Mission</h3>
@@ -47,7 +47,7 @@ function About() {
 
           <h3>Our Vision</h3>
           <p>
-            Utilize the power of Sun light to improve <br /> life of human being with fresh and quality foods while living off-grid. 
+            Utilize the power of Sun light to improve <br /> life of human being with fresh and quality foods while living off-grid.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ function About() {
           <img src={ im } alt="Mission and vision of the company" />
         </div>
       </div>
-      {/* Start of the value proposition section  */}
+      {/* Start of the value proposition section  */ }
       <div className="values-container">
         <div className="heading">
           <h2>What makes us different</h2>
