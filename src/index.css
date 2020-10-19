@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  /* fallback for old browsers */
+  background: #cbe064;
+/* CSS Tokens */
+--color1: #cbe064;
+--color2: #b7c681;
+--color3: #a3ab9e;
+--color4: #8f91ba;
+--color5: #7b76d8;
+--color6: #675cf4;
+}
+h1,
+h2 h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

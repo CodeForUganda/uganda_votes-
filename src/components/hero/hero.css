@@ -1,0 +1,21 @@
+/* Hero */
+.defaultHero,
+.pagesHero {
+  min-height: calc(100vh - 150px);
+  background: url("../../assets/images/hero2.webp") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.pagesHero {
+  background: #2c5f2dff;
+  min-height: 10vh;
+}
+/* End of Hero */
+
+@media screen and (max-width: 992px) {
+  .defaultHero {
+    min-height: calc(100vh - 300px);
+  }
+}
